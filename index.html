@@ -268,25 +268,25 @@
             <span class="section__subtitle">My Personal Journal</span>
             <div class="qualification_container container">
                 <div class="qualification_tabs">
-                    <div class="qualification_button button-flex">
+                    <div class="qualification_button button-flex qualification_active" data-target='#education'>
                         <i class="uil uil-graduation-cap qualification_icon"></i>
                         Education
                     </div>
 
-                    <div class="qualification_button button-flex">
+                    <div class="qualification_button button-flex" data-target="#work">
                         <i class="uil uil-briefcase-alt qualification_icon"></i>
-                        work
+                        Work
                     </div>
                 </div>
-                <div class="quialification_sections">
+                <div class="qualification_sections">
                     <!--==================== QUALIFICATION CONTENT 1====================-->
-                    <div class="qualification_content">
+                    <div class="qualification_content qualification_active" data-content id="education">
                         <!--==================== QUALIFICATION 1====================-->
                         <div class="qualification_data">
                             <div>
                                 <h3 class="qualification_title">Backend Developer</h3>
                                 <span class="qualification_subtitle">BeTek</span>
-                                <div class="quialification_calendar">
+                                <div class="qualification_calendar">
                                     <i class="uil uil-calendar-alt"></i>
                                     02/2024 - 07/2024
                                 </div>
@@ -310,23 +310,22 @@
                             <div>
                                 <h3 class="qualification_title">Commercial Advisor</h3>
                                 <span class="qualification_subtitle">Sena</span>
-                                <div class="quialification_calendar">
+                                <div class="qualification_calendar">
                                     <i class="uil uil-calendar-alt"></i>
                                     02/2020 - 09/2021
                                 </div>
                             </div>
                         </div>
-
                     </div>
 
                     <!--==================== QUALIFICATION CONTENT 2====================-->
-                    <div class="qualification_content">
+                    <div class="qualification_content" data-content id="work">
                         <!--==================== QUALIFICATION 1====================-->
                         <div class="qualification_data">
                             <div>
                                 <h3 class="qualification_title">Backend Developer Trainee</h3>
                                 <span class="qualification_subtitle">BeTek - Colombia</span>
-                                <div class="quialification_calendar">
+                                <div class="qualification_calendar">
                                     <i class="uil uil-calendar-alt"></i>
                                     02/2024 - 07/2024
                                 </div>
@@ -350,36 +349,34 @@
                             <div>
                                 <h3 class="qualification_title">Commercial advisor</h3>
                                 <span class="qualification_subtitle">TelePerformance</span>
-                                <div class="quialification_calendar">
+                                <div class="qualification_calendar">
                                     <i class="uil uil-calendar-alt"></i>
                                     09/2022 - 01/2023
                                 </div>
                             </div>
+                        </div>
 
-                            <!--==================== QUALIFICATION 3 ====================-->
-                            <div class="qualification_data">
-                                <div>
-                                    <h3 class="qualification_title">Commercial advisor</h3>
-                                    <span class="qualification_subtitle">Konecta - Colombia</span>
-                                    <div class="quialification_calendar">
-                                        <i class="uil uil-calendar-alt"></i>
-                                        04/2020 - 09/2020
-                                    </div>
-                                </div>
-
-                                <div>
-                                    <span class="qualification_rounder"></span>
-                                    <!-- <span class="qualification_line"></span> -->
+                        <!--==================== QUALIFICATION 3 ====================-->
+                        <div class="qualification_data">
+                            <div>
+                                <h3 class="qualification_title">Commercial advisor / Human resources</h3>
+                                <span class="qualification_subtitle">Konecta</span>
+                                <div class="qualification_calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    04/2020 - 09/2020
                                 </div>
                             </div>
 
+                            <div>
+                                <span class="qualification_rounder"></span>
+                                <!-- <span class="qualification_line"></span> -->
+                            </div>
                         </div>
                     </div>
-
-
                 </div>
             </div>
         </section>
+
 
         <!--==================== SERVICES ====================-->
         <section class="services section" id="services">
