@@ -69,6 +69,30 @@ tabs.forEach(tab => {
 
 /*==================== SERVICES MODAL ====================*/
 
+const modalViews = document.querySelectorAll('.services_modal'),
+  modalBtns = document.querySelectorAll('.services_button'),
+  modalCloses = document.querySelectorAll('.services_modal-close')
+
+// Función para abrir el modal
+let modal = function (modalClick) {
+  modalViews[modalClick].classList.add('active-modal')
+}
+
+// Asignar el evento 'click' a cada botón para abrir el modal correspondiente
+modalBtns.forEach((modalBtn, i) => {
+  modalBtn.addEventListener('click', () => {
+    modal(i)
+  })
+})
+
+modalCloses.forEach((modalClose) => {
+  modalClose.addEventListener('click', () => {
+    modalViews.forEach((modalViews) => {
+      modalViews.classList.remove('active-modal')
+    })
+  })
+})
+
 
 /*==================== PORTFOLIO SWIPER  ====================*/
 
