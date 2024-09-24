@@ -682,6 +682,15 @@ img {
   margin-right: var(--mb-0-25);
 }
 
+.active-modal {
+  opacity: 1;
+  visibility: visible;
+}
+
+.services_modal {
+  z-index: 100; /* O cualquier valor más alto que otros elementos de la página */
+}
+
 /*==================== PORTFOLIO ====================*/
 
 
