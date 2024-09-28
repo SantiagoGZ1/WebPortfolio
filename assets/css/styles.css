@@ -953,7 +953,7 @@ img {
   }
 
   .about_description {
-    padding: 0 .2rem;
+    padding: 0.5rem;
   }
 
   .skills_title {
@@ -1006,13 +1006,18 @@ img {
   .about_buttons {
     gap: 3.2rem; /* Aumenta un poco la separación entre los botones */
   }
+  .about_description{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  } 
 }
 
 
 
 @media screen and (min-width:400px) {
   .about_description{
-    padding: 0 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
 
   .about_buttons a {
@@ -1022,6 +1027,10 @@ img {
 
   .about_buttons {
     gap: 3.5rem; /* Aumenta un poco la separación entre los botones */
+  }
+  .about_description{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
 }
 
@@ -1065,6 +1074,7 @@ img {
   .about_buttons {
     gap: 1rem; /* Aumenta la separación entre los botones */
   }
+
 }
 
 @media screen and (min-width: 768px) {
