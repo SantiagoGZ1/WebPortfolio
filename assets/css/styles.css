@@ -985,7 +985,44 @@ img {
     width: 200px;
   }
 
+  .about_buttons a {
+    padding: 0.2rem 0.4rem; /* Reduce el padding aún más */
+    font-size: 1rem; /* Ajusta el tamaño de la fuente */
+  }
 
+  .about_buttons {
+    gap: 0.8rem; /* Aumenta un poco la separación entre los botones */
+  }
+
+
+}
+
+@media screen and (min-width: 351px) and (max-width: 399px) {
+  .about_buttons a {
+    padding: 0.2rem 0.4rem; /* Reduce el padding aún más */
+    font-size: 1rem; /* Ajusta el tamaño de la fuente */
+  }
+
+  .about_buttons {
+    gap: 3.2rem; /* Aumenta un poco la separación entre los botones */
+  }
+}
+
+
+
+@media screen and (min-width:400px) {
+  .about_description{
+    padding: 0 0.5rem;
+  }
+
+  .about_buttons a {
+    padding: 0.2rem 0.4rem; /* Reduce el padding aún más */
+    font-size: 1.1rem; /* Ajusta el tamaño de la fuente */
+  }
+
+  .about_buttons {
+    gap: 3.5rem; /* Aumenta un poco la separación entre los botones */
+  }
 }
 
 /* For medium devices */
@@ -1019,6 +1056,15 @@ img {
   .about_container{
     padding-right: 1rem;
   }
+
+  .about_buttons a {
+    padding: 0.3rem 0.5rem; /* Reduce el padding para hacer los botones más pequeños */
+    font-size: 1rem; /* Ajusta el tamaño de la fuente */
+  }
+
+  .about_buttons {
+    gap: 1rem; /* Aumenta la separación entre los botones */
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -1026,6 +1072,7 @@ img {
     margin-left: auto;
     margin-right: auto;
   }
+
 
   body {
     margin: 0;
@@ -1206,6 +1253,19 @@ img {
   .contact_subtitle{
     font-size: 0.9rem;
   }
+  .about_buttons {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .about_buttons a {
+    padding: 0.5rem 0.5rem; /* Ajusta el espacio interno de los botones */
+    font-size: 1.1rem; /* Reduce el tamaño de la fuente */
+    width: auto; /* Deja que el tamaño del botón se ajuste al contenido */
+}
+
+
+
 }
 
 /* For large devices */
@@ -1228,9 +1288,6 @@ img {
 
   .about_container {
     padding-right: 3rem;
-  }
-
-  .about_container {
     column-gap: 1rem;
   }
 
@@ -1272,6 +1329,18 @@ img {
 
   .section__subtitle{
     font-size: 1.1rem;
+  }
+  .about_buttons {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .about_buttons a {
+    font-size: 1.3rem; /* Ajusta el tamaño de la fuente */
+  }
+
+  .about_buttons {
+    gap: 0rem; /* Aumenta la separación entre los botones */
   }
 }
 
