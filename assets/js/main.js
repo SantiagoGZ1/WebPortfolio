@@ -187,3 +187,38 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+/*==================== LANGUAGE CHANGE ====================*/
+
+const languageButton = document.getElementById('language-button')
+let currentLanguage = localStorage.getItem('selected-language') || 'en'
+
+// Function to translate the page
+function translatePage(language) {
+    const elements = document.querySelectorAll('[data-translate]')
+    elements.forEach(element => {
+        const key = element.getAttribute('data-translate')
+        if (translations[language] && translations[language][key]) {
+            element.textContent = translations[language][key]
+        }
+    })
+    
+    // Update the language button icon
+    if (language === 'es') {
+        languageButton.classList.remove('uil-language')
+        languageButton.classList.add('uil-english-to-chinese')
+    } else {
+        languageButton.classList.remove('uil-english-to-chinese')
+        languageButton.classList.add('uil-language')
+    }
+}
+
+// Initialize the page with the saved language
+translatePage(currentLanguage)
+
+// Language change event
+languageButton.addEventListener('click', () => {
+    currentLanguage = currentLanguage === 'en' ? 'es' : 'en'
+    localStorage.setItem('selected-language', currentLanguage)
+    translatePage(currentLanguage)
+})

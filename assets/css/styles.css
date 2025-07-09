@@ -101,6 +101,19 @@ body.dark-theme {
   color: var(--first-color);
 }
 
+/*========== Button Language ==========*/
+.change-language {
+  font-size: 1.25rem;
+  color: var(--title-color);
+  margin-right: var(--mb-1);
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.change-language:hover {
+  color: var(--first-color);
+}
+
 
 /*==================== BASE ====================*/
 * {
@@ -512,21 +525,60 @@ img {
 }
 
 .skills_java {
-  width: 70%;
+  width: 90%;
 }
 
 .skills_springboot {
-  width: 70%;
+  width: 90%;
 }
 
-.skills_databases {
-  width: 60%;
+.skills_restful {
+  width: 90%;
 }
 
-.skills_cloud{
+.skills_microservices{
  width: 60%;
 }
 
+.skills_mysql{
+  width: 80%;
+}
+
+.skills_postgresql{
+  width: 80%;
+}
+
+.skills_jpa{
+  width: 80%;
+}
+
+.skills_aws{
+  width: 70%;
+}
+
+.skills_azure{
+  width: 70%;
+}
+
+.skills_docker{
+  width: 60%;
+}
+
+.skills_cicd{
+  width: 60%;
+}
+
+.skills_git{
+  width: 80%;
+}
+
+.skills_maven{
+  width: 80%;
+}
+
+.skills_gradle{
+  width: 80%;
+}
 
 .skills_html {
   width: 70%;
@@ -1132,6 +1184,10 @@ img {
   }
 
   .change-theme {
+    margin: 0;
+  }
+
+  .change-language {
     margin: 0;
   }
 
