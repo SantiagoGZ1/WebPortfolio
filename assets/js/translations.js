@@ -63,11 +63,12 @@ const translations = {
         "portfolio_subtitle": "Trabajo más reciente",
         "everyone_flies_description": "Proyecto de aerolínea para reservar vuelos, enviar correos de reserva y tickets PDF, junto con la implementación de Sky, un chatbot de IA que te ayuda en tu proceso de reserva de vuelos.",
         "piggy_description": "Es una plataforma que enseña a los niños el valor del dinero y la gestión responsable. Con una interfaz fácil de usar, les ayuda a rastrear ingresos y gastos mientras aprenden conceptos básicos como ahorrar, gastar y presupuestar. Los padres también pueden monitorear y guiar el aprendizaje financiero de sus hijos.",
+        "cafe_sostenible": "Un Café por la Sostenibilidad es una aplicación web diseñada para optimizar la gestión de fincas y cooperativas cafetaleras. Permite registrar datos georreferenciados, lotes, cosechas y productores, además de generar documentos de debida diligencia, integrar IA y controlar el café destinado a exportación.",
 
         // Sección Contact
         "contact_title": "Contáctame",
         "contact_subtitle": "Ponte en contacto",
-        "call_me": "Llámame",
+        "call_me": "Llámame - Whatsapp",
         "email": "Correo",
         "location": "Ubicación",
         "location_value": "Colombia - Antioquia - Medellín",
@@ -126,7 +127,7 @@ const translations = {
         // Services Section
         "services_title": "Services",
         "services_subtitle": "What I Offer",
-        "backend_services_title": "Backend Developer",
+        "backend_services_title": "Backend",
         "cloud_services_title": "Cloud Services",
         "view_more": "View More",
         "backend_modal_title": "Backend Developer",
@@ -143,11 +144,12 @@ const translations = {
         "portfolio_subtitle": "Most recent work",
         "everyone_flies_description": "Airline project for booking flights, sending reservation emails and PDF tickets, along with the implementation of Sky, an AI chatbot that assists you in your flight booking process.",
         "piggy_description": "It's a platform that teaches children the value of money and responsible management. With an easy-to-use interface, it helps them track income and expenses while learning basic concepts like saving, spending, and budgeting. Parents can also monitor and guide their children's financial learning.",
+        "cafe_sostenible": "A Coffee for Sustainability is a web application designed to optimize the management of coffee farms and cooperatives. It allows the registration of georeferenced data, lots, harvests, and producers, as well as the generation of due diligence documents, AI integration, and control of coffee destined for export.",
 
         // Contact Section
         "contact_title": "Contact Me",
         "contact_subtitle": "Get in touch",
-        "call_me": "Call Me",
+        "call_me": "Call Me - Whatsapp",
         "email": "Email",
         "location": "Location",
         "location_value": "Colombia - Antioquia - Medellin",
